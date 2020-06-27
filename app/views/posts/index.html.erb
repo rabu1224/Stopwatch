@@ -1,0 +1,21 @@
+<h1>Posts#index</h1>
+<p>Find me in app/views/posts/index.html.erb</p>
+
+<% agent1 = "最初のエージェント" %>
+
+<%= agent1 %>
+
+
+
+<div class="main posts-index">
+  <div class="container">
+    <!-- 以下の<% %>を使ってeach文を追加してください -->
+    <% posts.each do | post| %>
+      <div class="posts-index-item">
+        <!-- 以下の<%= %>を使って投稿内容を表示してください -->
+        <%= @posts %>
+      </div>
+    <!-- 以下の<% %>を使ってeach文のendを追加してください -->
+    <% end %>
+  </div>
+</div>

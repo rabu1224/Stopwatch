@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  # <%= stylesheet_link_tag 'stopwatch', media: 'all', 'data-turbolinks-track': 'reload' %>
+  # # <%= javascript_include_tag 'stopwatch', 'data-turbolinks-track': 'reload' %>
+  # <%= javascript_include_tag 'stopwatch', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag('stopwatch') %>
+
+  <title>ストップウォッチ</title>
+
+  </head>
+  <body>
+    <div id="container">
+      <div id="stopwatch">
+        <div id="display">0.000</div>
+      </div>
+      <div class="buttons">
+        <button id="startStop">スタート</button>
+        <button id="clear">クリア</button>
+      </div>
+    </div>
+
+  
+  </body>
+
+</html>

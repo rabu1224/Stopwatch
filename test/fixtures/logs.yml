@@ -1,0 +1,9 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  sr: 1
+  aht: 2020-06-06 15:40:48
+
+two:
+  sr: 1
+  aht: 2020-06-06 15:40:48

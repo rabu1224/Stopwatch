@@ -1,0 +1,32 @@
+
+#container {
+  text-align: center;
+  width: 300px;
+  margin: 30px auto 0;
+  font-weight: bold;
+}
+
+#stopwatch {
+  font-size: 30px;
+  padding: 50px 0;
+  border: 2px #000000 solid;
+  border-radius: 10px;
+}
+
+#startStop,#clear {
+  cursor: pointer;
+  font-size: 18px;
+  width: 145px;
+  background: #eee;
+  height: 40px;
+  line-height: 40px;
+}
+
+#startStop {
+  float: left;
+}
+
+#clear {
+  float: right;
+}
+
